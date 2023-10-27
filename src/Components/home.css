@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+header{
+    display: flex;
+}
+h1{
+    margin-left: 20px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+li:hover{
+    border-bottom:3px solid #3772FF;
+    transition: 0.5s;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+input{
+    width: 800px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 270px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: -10px -8px 23px -9px rgba(252,251,251,0.67);
+-webkit-box-shadow: -10px -8px 23px -9px rgba(252,251,251,0.67);
+-moz-box-shadow: -10px -8px 23px -9px rgba(252,251,251,0.67);
+}
+
+button{
+    padding: 15px;
+    width: 130px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3772FF;
+    color: white;
+}
+
+.price-list{
+    width: 600px;
+    height: 70vh;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.price-details{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.comp-name,.comp-price{
+    padding: 15px;
+    display: flex;
+    gap: 25px;
+}
+
+.cname{
+    color: rgb(170, 17, 17);
+    width: 150px;
+}
+.type{
+    width: 90px;
+}
+.event{
+    color: #3772FF;
+    width: 30px;
+}
+.prc{
+    color: green;
+}
+.per{
+    color: gray;
+}
+
+.add-btn{
+    color: #3772FF;
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+section{
+    display: flex;
+}
+
+/*---------------user-section------*/
+
+.user-section{
+    margin-left: 40px;
+    margin-top: 40px;
+    color: white;
+}
+
+.welcome-name{
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 0.5px solid gray;
+    padding: 20px;
+}
+
+figure{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    gap: 7px;
+}
+
+.second-section{
+    display: flex;
+    padding: 35px;
+    gap: 90px;
+    border-bottom: 0.5px solid gray;
+}
+
+.h1-price{
+    font-size: 70px;
+    font-weight: 700;
+}
+.sub-hd{
+    margin-left: 20px;
+    color: gray;
+}
+
+
+.equity-balance-section{
+    padding-top: 20px;
+    color: gray;
+}
+.sub-bal{
+    margin-top: 10px;
+}
+.vw-btn{
+    margin-top: 10px;
+    color: #3772FF;
+}
+
+
+.anchor{
+    margin-left: 100px;
+}
+.desc{
+    margin-top: 10px;
+}
+.act-btn{
+    margin-top: 15px;
+    padding: 6px;
+    width: 120px;
+    margin-left: 70px;
+}
+
+.third-section{
+    padding: 40px;
+}
+
+.h3-hd{
+    font-size: 25px;
+}
+
+.share-section{
+    display: flex;
+    gap: 300px;
+}
+.h1-sh{
+    font-size: 60px;
+    color: green;
+    margin-left: -10px;
+}
+
+.share-value{
+    margin-top: 20px;
+    color: rgb(223, 220, 220);
+}
+.inv-prc{
+    margin-top: 10px;
+}
+
+.bar{
+    margin-top: 30px;
+    width: 700px;
+    height: 60px;
+    background-color: #3772FF;
+}
+
+
+
+@media screen and (max-width:480px){
+nav{
+    width: 350px;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+h1{
+    margin-left: 6px;
+    font-size: 18px;
+    margin-top: 6px;
+}
+li{
+    margin-top: 3px;
+}
+
+input{
+    width: 350px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left:0px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 7px;
+    width: 100px;
+    margin-left: 40%;
+}
+
+section{
+    display: block;
+}
+
+.price-list{
+    width: 350px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.price-details{
+    display: block;
+    justify-content: none;
+}
+
+.comp-price{
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.per,.mar-cls,.add-btn{
+margin-left: 20px;
+}
+
+/*-------user-section-----*/
+
+.user-section{
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+.welcome-name{
+    padding: 5px;
+}
+
+.second-section{
+    display: block;
+    padding:5px;
+}
+.h1-price{
+    font-size: 80px;
+}
+
+
+.equity-price-section{
+margin: 10px 0 0 80px;
+}
+.equity-balance-section{
+    margin: 30px 0 0 90px;
+}
+.commodity-account-section{
+    margin: 50px 0px 0 30px;
+}
+
+
+.third-section{
+    padding: 20px;
+}
+.h3-hd{
+    font-size: 25px;
+}
+
+.share-section{
+    display: block;
+}
+
+.bar{
+    margin-top: 30px;
+    width: 300px;
+    height: 30px;
+}
+
+#wt-lst{
+    margin-left: 50px;
+}
+.cname-wl{
+    width: 150px;
+}
+.graph{
+    width: 300px;
+    height: 200px;
+    margin-left:0px;
+    z-index: -99;
+    position: absolute;
+}
+   
+}
